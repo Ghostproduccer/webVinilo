@@ -29,8 +29,7 @@ This project showcases the seamless integration of Bootstrap for front-end desig
 1. Clone the repository to your local machine.
 2. Set up a web server environment (e.g., XAMPP, WAMP, MAMP) to run the PHP scripts.
 3. Import the provided SQL database schema to your MySQL server.
-4. Customize the shop's vinyl record collection by modifying the database or adding more records.
-5. Run the application and explore the user and admin functionalities.
+4. Run the application and explore the user and admin functionalities.
 
 **Note**:
 - The shopping cart feature is not yet implemented but can be added in future iterations.
