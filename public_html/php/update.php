@@ -1,4 +1,4 @@
-<?php 
+<?php
 $id = $_GET["id"];
 $nom = $_REQUEST["nombre"];
 $ape = $_REQUEST["apellidos"];
@@ -20,9 +20,8 @@ $sql = "UPDATE `users`
 
 if (mysqli_query($conn, $sql)) {
     header('Location: admin.php');
-}
-else {
-    echo "Error: ".mysqli_error($conn);
+} else {
+    echo "Error: " . mysqli_error($conn);
 }
 
 mysqli_close($conn);

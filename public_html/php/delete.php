@@ -18,4 +18,3 @@ mysqli_close($conn);
 
 // Redirigir al usuario de vuelta a admin.php después de unos segundos
 header("refresh:2;url=admin.php");
-?>

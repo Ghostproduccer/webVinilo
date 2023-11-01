@@ -26,5 +26,3 @@ include "conexionVinylo.php";
         }
 
   mysqli_close($conn);
-
-?>

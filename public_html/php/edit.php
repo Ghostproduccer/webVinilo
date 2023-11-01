@@ -19,8 +19,7 @@ mysqli_close($conn);
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Registro</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/fuente.css">
 </head>
 
@@ -29,10 +28,8 @@ mysqli_close($conn);
         <!-- Fixed navbar -->
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/home.html"><img src="/media/logoq1.webp" alt="logo" width="25"
-                        height="24"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="/index.html"><img src="/media/logoq1.webp" alt="logo" width="25" height="24"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -68,11 +65,11 @@ mysqli_close($conn);
 
                 <div class="container-fluid">
                     <h4 class="mb-3">Introduzca sus datos</h4>
-                    <form action="update.php?id=<?php echo $id;?>" method="POST">
+                    <form action="update.php?id=<?php echo $id; ?>" method="POST">
                         <div class="row g-3">
                             <div class="col-sm-6">
                                 <label for="nombre" class="form-label">Nombre</label>
-                                <input type="text" class="form-control" id="nombre" placeholder="nombre" name="nombre" value="<?php echo $fila["nombre"];?>" required>
+                                <input type="text" class="form-control" id="nombre" placeholder="nombre" name="nombre" value="<?php echo $fila["nombre"]; ?>" required>
                                 <div class="invalid-feedback">
                                     Por favor introduzca su nombre.
                                 </div>
@@ -80,7 +77,7 @@ mysqli_close($conn);
 
                             <div class="col-sm-6">
                                 <label for="apellidos" class="form-label">Apellidos</label>
-                                <input type="text" class="form-control" id="apellidos" placeholder="apellidos" name="apellidos" value="<?php echo $fila["apellidos"];?>" required>
+                                <input type="text" class="form-control" id="apellidos" placeholder="apellidos" name="apellidos" value="<?php echo $fila["apellidos"]; ?>" required>
                                 <div class="invalid-feedback">
                                     Por favor, introduzca sus apellidos.
                                 </div>
@@ -90,7 +87,7 @@ mysqli_close($conn);
                                 <label for="username" class="form-label">Nombre de Usuario</label>
                                 <div class="input-group has-validation">
                                     <span class="input-group-text">@</span>
-                                    <input type="text" class="form-control" id="username" placeholder="Username" name="usuario" value="<?php echo $fila["username"];?>" required>
+                                    <input type="text" class="form-control" id="username" placeholder="Username" name="usuario" value="<?php echo $fila["username"]; ?>" required>
                                     <div class="invalid-feedback">
                                         El nombre de usuario es obligatorio.
                                     </div>
@@ -100,13 +97,11 @@ mysqli_close($conn);
                             <div class="col-12">
                                 <label for="password" class="form-label">Contraseña</label>
                                 <div class="input-group has-validation">
-                                    <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                            height="16" fill="currentColor" class="bi bi-key" viewBox="0 0 16 16">
-                                            <path
-                                                d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8zm4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5z" />
+                                    <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-key" viewBox="0 0 16 16">
+                                            <path d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8zm4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5z" />
                                             <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
                                         </svg></span>
-                                    <input type="password" class="form-control" id="password" name="contrasena" placeholder="***********" value="<?php echo $fila["password"];?>" required>
+                                    <input type="password" class="form-control" id="password" name="contrasena" placeholder="***********" value="<?php echo $fila["password"]; ?>" required>
                                     <div class="invalid-feedback">
                                         La contraseña es obligatoria.
                                     </div>
@@ -115,7 +110,7 @@ mysqli_close($conn);
 
                             <div class="col-12">
                                 <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="you@example.com" name="email" value="<?php echo $fila["email"];?>" required>
+                                <input type="email" class="form-control" id="email" placeholder="you@example.com" name="email" value="<?php echo $fila["email"]; ?>" required>
                                 <div class="invalid-feedback">
                                     Por favor Introduzca una cuenta de correo válida.
                                 </div>
@@ -134,9 +129,7 @@ mysqli_close($conn);
 
         </footer>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 </html>

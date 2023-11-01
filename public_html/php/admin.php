@@ -27,7 +27,7 @@ mysqli_close($conn);
         <!-- Fixed navbar -->
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/home.html"><img src="/media/logoq1.webp" alt="logo" width="25" height="24"></a>
+                <a class="navbar-brand" href="/index.html"><img src="/media/logoq1.webp" alt="logo" width="25" height="24"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

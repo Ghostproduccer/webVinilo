@@ -1,4 +1,4 @@
-<?php 
+<?php
 $username2 = $_GET["user"];
 ?>
 <!doctype html>
@@ -8,8 +8,7 @@ $username2 = $_GET["user"];
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Catálogo</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/pedido.css">
   <link rel="stylesheet" href="/css/fuente.css">
 </head>
@@ -19,9 +18,8 @@ $username2 = $_GET["user"];
     <!-- Fixed navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/home.html"><img src="/media/logoq1.webp" alt="" width="25" height="24"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="/index.html"><img src="/media/logoq1.webp" alt="" width="25" height="24"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -40,13 +38,16 @@ $username2 = $_GET["user"];
           </ul>
 
           <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-            
+
             <li class="nav-item ms-auto">
-              <a class="nav-link active" href="#">Bienvenido, <?=$username2?></a>
+              <a class="nav-link active" href="#">Bienvenido, <?= $username2 ?></a>
             </li>
             <li>
-                        <a class="navbar-brand btn btn-outline-danger" href="/php/iniciosesion.php"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-door-open" viewBox="0 0 16 16"><path d="M8.5 10c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z"></path><path d="M10.828.122A.5.5 0 0 1 11 .5V1h.5A1.5 1.5 0 0 1 13 2.5V15h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3V1.5a.5.5 0 0 1 .43-.495l7-1a.5.5 0 0 1 .398.117zM11.5 2H11v13h1V2.5a.5.5 0 0 0-.5-.5zM4 1.934V15h6V1.077l-6 .857z"></path></svg></a>
-                        </li>
+              <a class="navbar-brand btn btn-outline-danger" href="/php/iniciosesion.php"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-door-open" viewBox="0 0 16 16">
+                  <path d="M8.5 10c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z"></path>
+                  <path d="M10.828.122A.5.5 0 0 1 11 .5V1h.5A1.5 1.5 0 0 1 13 2.5V15h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3V1.5a.5.5 0 0 1 .43-.495l7-1a.5.5 0 0 1 .398.117zM11.5 2H11v13h1V2.5a.5.5 0 0 0-.5-.5zM4 1.934V15h6V1.077l-6 .857z"></path>
+                </svg></a>
+            </li>
 
           </ul>
 
@@ -79,13 +80,11 @@ $username2 = $_GET["user"];
                   </div>
 
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                  data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                  data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -122,13 +121,11 @@ $username2 = $_GET["user"];
                   </div>
 
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1"
-                  data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1"
-                  data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -163,13 +160,11 @@ $username2 = $_GET["user"];
                   </div>
 
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3"
-                  data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3"
-                  data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -204,13 +199,11 @@ $username2 = $_GET["user"];
                   </div>
 
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4"
-                  data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4"
-                  data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -242,13 +235,11 @@ $username2 = $_GET["user"];
                   </div>
 
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample8"
-                  data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample8" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample8"
-                  data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample8" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -283,13 +274,11 @@ $username2 = $_GET["user"];
                   </div>
 
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample5"
-                  data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample5" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample5"
-                  data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample5" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -314,7 +303,7 @@ $username2 = $_GET["user"];
         <div class="col-12 col-md">
           <small class="d-block mb-3 text-muted">&copy; Bruno Rodríguez</small>
         </div>
-        
+
         <div class="col-md container">
           <small class="d-block mb-3">&copy; Bruno Rodríguez</small>
         </div>
@@ -322,9 +311,7 @@ $username2 = $_GET["user"];
     </footer>
   </div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 </html>
