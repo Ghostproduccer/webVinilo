@@ -1,0 +1,2 @@
+# Ignorar el archivo de configuración de conexión con datos sensibles
+/public_html/php/conexionVinylo.php
