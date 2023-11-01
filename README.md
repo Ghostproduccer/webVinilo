@@ -22,15 +22,15 @@ This project showcases the seamless integration of Bootstrap for front-end desig
 
 - **Back-End**:
   - PHP: Handling server-side logic and CRUD operations.
-  - MySQL: Storing and managing user and vinyl record data securely.
+  - MySQL: Storing and managing user data.
 
 **Try it!**:
 
-Try the WEBSHOP HERE: [**Vinylo Webshop**](https://rodriguezfaustinobrunotema2parte1.000webhostapp.com/)
-you can log in with **user: pepito pass: pepito** or create your own username/password.
-you can access the control panel with **user: admin pass: admin**
-Enjoy exploring the Vinyl Record Shop!
+Try the webshop here: [**Vinylo Webshop**](https://rodriguezfaustinobrunotema2parte1.000webhostapp.com/)
+- Log in with **user: pepito pass: pepito** or create your own username/password.
+- You can access the control panel with **user: admin pass: admin**
+- Enjoy exploring the Vinyl Record Shop!
 
 **Note**:
-- The shopping cart feature is not yet implemented but can be added in future iterations.
+- The shopping cart/payment feature is not yet implemented but can be added in future iterations.
 - Admin login credentials are pre-set for demonstration purposes. In a real-world scenario, ensure secure admin access management.
