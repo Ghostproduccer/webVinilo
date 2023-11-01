@@ -32,5 +32,5 @@ Try the webshop here: [**Vinylo Webshop**](https://rodriguezfaustinobrunotema2pa
 - Enjoy exploring the Vinyl Record Shop!
 
 **Note**:
-- The shopping cart feature is not yet implemented but can be added in future iterations.
+- The shopping cart/payment feature is not yet implemented but can be added in future iterations.
 - Admin login credentials are pre-set for demonstration purposes. In a real-world scenario, ensure secure admin access management.
