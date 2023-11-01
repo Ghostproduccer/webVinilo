@@ -22,7 +22,7 @@ This project showcases the seamless integration of Bootstrap for front-end desig
 
 - **Back-End**:
   - PHP: Handling server-side logic and CRUD operations.
-  - MySQL: Storing and managing user and vinyl record data securely.
+  - MySQL: Storing and managing user data.
 
 **Try it!**:
 
