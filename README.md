@@ -5,15 +5,6 @@ Bootstrap-Powered PHP CRUD Web Application
 
 This project showcases the seamless integration of Bootstrap for front-end design and PHP for implementing CRUD operations, featuring a unique vinyl record store concept.
 
-**Vinyl Record Shop Features**:
-
-- **Shop for Vinyl Records**: Explore a curated collection of vinyl records.
-- **User Registration**: New users can sign up, providing their information for creating an account. User data is stored in a database.
-- **User Authentication**: Registered users can log in, gaining access to their personalized profiles.
-- **Admin Control Panel**: An admin user with specific credentials can access the control panel. From here, administrators have the power to manage users, including deletion and modification.
-- **Create, Read, Update, Delete (CRUD)**: CRUD operations are used to manage user data in the database, making it easy to add, view, edit, or remove users.
-- **Responsive Design**: The user interface is designed with Bootstrap, ensuring a responsive, visually appealing, and user-friendly experience.
-
 **Technologies Used**:
 
 - **Front-End**:
